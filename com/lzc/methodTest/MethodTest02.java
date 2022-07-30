@@ -14,6 +14,7 @@ public class MethodTest02 {
         System.out.println(p.hashCode());
         System.out.println(p2.hashCode());
 
+
     }
 }
 

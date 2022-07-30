@@ -13,6 +13,8 @@ public class PolyParameter {
         showEmpAnnal(manager);
         testWork(staff);
         testWork(manager);
+        String a="abc";
+
 
 
     }
