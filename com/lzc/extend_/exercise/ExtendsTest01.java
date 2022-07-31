@@ -13,11 +13,11 @@ public class ExtendsTest01 {
 
 class A {
     public A() {
-        System.out.println("a");
+        System.out.println("HouseRentApp");
     }
 
     public A(String name) {
-        System.out.println("a name");
+        System.out.println("HouseRentApp name");
     }
 }
 
