@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="完成房屋出租系统">
-      <change afterPath="$PROJECT_DIR$/com/lzc/BankAccount/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/lzc/BankAccount/CheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/lzc/BankAccount/HomeWork08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/lzc/BankAccount/SavingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/lzc/houserent/HouseRentApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/lzc/houserent/domain/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/lzc/houserent/service/HouseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/lzc/houserent/utils/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/lzc/houserent/view/HouseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/static_/ChildGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/static_/CodeBlockDetail02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/static_/CodeBlockDetail03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/lzc/extend_/exercise/ExtendsTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/lzc/extend_/exercise/ExtendsTest01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +26,8 @@
     <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/com/lzc/BankAccount/BankAccount.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/com/lzc/BankAccount/CheckingAccount.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/com/oop/BankAccount/BankAccount.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/com/oop/BankAccount/CheckingAccount.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,13 +75,13 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.3257329&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HouseRentApp">
-    <configuration name="ArrayAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzc.ArrayTest.ArrayAdd" />
+  <component name="RunManager" selected="Application.CodeBlockDetail03 (4)">
+    <configuration name="CodeBlockDetail03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.static_.CodeBlockDetail03" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzc.ArrayTest.*" />
+          <option name="PATTERN" value="com.static_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzc.BankAccount.HomeWork08" />
+    <configuration name="CodeBlockDetail03 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.static_.CodeBlockDetail03" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzc.BankAccount.*" />
+          <option name="PATTERN" value="com.static_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseRentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzc.houserent.HouseRentApp" />
+    <configuration name="CodeBlockDetail03 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.static_.CodeBlockDetail03" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzc.houserent.*" />
+          <option name="PATTERN" value="com.static_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallChanageSysApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzc.smallchanagesys.oop.SmallChanageSysApp" />
+    <configuration name="CodeBlockDetail03 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.static_.CodeBlockDetail03" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzc.smallchanagesys.oop.*" />
+          <option name="PATTERN" value="com.static_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallChangeSys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzc.smallchanagesys.SmallChangeSys" />
+    <configuration name="CodeBlockDetail03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.static_.CodeBlockDetail03" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzc.smallchanagesys.*" />
+          <option name="PATTERN" value="com.static_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HouseRentApp" />
-        <item itemvalue="Application.ArrayAdd" />
-        <item itemvalue="Application.HomeWork08" />
-        <item itemvalue="Application.SmallChanageSysApp" />
-        <item itemvalue="Application.SmallChangeSys" />
+        <item itemvalue="Application.CodeBlockDetail03 (4)" />
+        <item itemvalue="Application.CodeBlockDetail03 (3)" />
+        <item itemvalue="Application.CodeBlockDetail03 (2)" />
+        <item itemvalue="Application.CodeBlockDetail03 (1)" />
+        <item itemvalue="Application.CodeBlockDetail03" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +171,8 @@
       <workItem from="1659188875275" duration="733000" />
       <workItem from="1659190346141" duration="413000" />
       <workItem from="1659190829886" duration="3432000" />
-      <workItem from="1659247458109" duration="8774000" />
+      <workItem from="1659247458109" duration="9524000" />
+      <workItem from="1659265574118" duration="2940000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -250,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659257733190</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="完成房屋出租系统">
+      <created>1659257901843</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659257901843</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +284,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com/lzc/houserent/service/HouseService.java</url>
+          <url>file://$PROJECT_DIR$/com/oop/houserent/service/HouseService.java</url>
           <line>71</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
