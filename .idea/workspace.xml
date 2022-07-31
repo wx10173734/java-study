@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="完成 代码块 static静态成员等">
-      <change afterPath="$PROJECT_DIR$/com/SingleTon/SingleTon01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/SingleTon/SingleTon02.java" afterDir="false" />
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="单例模式(饿汉式和懒汉式)">
       <change afterPath="$PROJECT_DIR$/com/final_/Final01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -173,7 +171,7 @@
       <workItem from="1659190829886" duration="3432000" />
       <workItem from="1659247458109" duration="9524000" />
       <workItem from="1659265574118" duration="4802000" />
-      <workItem from="1659272670375" duration="1518000" />
+      <workItem from="1659272670375" duration="2449000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -259,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659270929981</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="单例模式(饿汉式和懒汉式)">
+      <created>1659274203677</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659274203677</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +292,8 @@
     <MESSAGE value="零钱通OOP改进版" />
     <MESSAGE value="完成房屋出租系统" />
     <MESSAGE value="完成 代码块 static静态成员等" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 代码块 static静态成员等" />
+    <MESSAGE value="单例模式(饿汉式和懒汉式)" />
+    <option name="LAST_COMMIT_MESSAGE" value="单例模式(饿汉式和懒汉式)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
