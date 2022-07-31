@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="完成房屋出租系统">
-      <change afterPath="$PROJECT_DIR$/com/static_/ChildGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/static_/CodeBlockDetail02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/static_/CodeBlockDetail03.java" afterDir="false" />
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="完成 代码块 static静态成员等">
+      <change afterPath="$PROJECT_DIR$/com/SingleTon/SingleTon01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/SingleTon/SingleTon02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/final_/Final01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,33 +75,7 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.3257329&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CodeBlockDetail03 (4)">
-    <configuration name="CodeBlockDetail03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.static_.CodeBlockDetail03" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.static_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CodeBlockDetail03 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.static_.CodeBlockDetail03" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.static_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SingleTon02 (1)">
     <configuration name="CodeBlockDetail03 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.static_.CodeBlockDetail03" />
       <module name="java-study" />
@@ -128,12 +102,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeBlockDetail03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.static_.CodeBlockDetail03" />
+    <configuration name="SingleTon01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.SingleTon.SingleTon01" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.static_.*" />
+          <option name="PATTERN" value="com.SingleTon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleTon02 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.SingleTon.SingleTon02" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SingleTon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleTon02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.SingleTon.SingleTon02" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SingleTon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleTon02 (1)" />
+        <item itemvalue="Application.SingleTon02" />
+        <item itemvalue="Application.SingleTon01" />
         <item itemvalue="Application.CodeBlockDetail03 (4)" />
         <item itemvalue="Application.CodeBlockDetail03 (3)" />
-        <item itemvalue="Application.CodeBlockDetail03 (2)" />
-        <item itemvalue="Application.CodeBlockDetail03 (1)" />
-        <item itemvalue="Application.CodeBlockDetail03" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +172,8 @@
       <workItem from="1659190346141" duration="413000" />
       <workItem from="1659190829886" duration="3432000" />
       <workItem from="1659247458109" duration="9524000" />
-      <workItem from="1659265574118" duration="2940000" />
+      <workItem from="1659265574118" duration="4802000" />
+      <workItem from="1659272670375" duration="1518000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -251,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659257901843</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="完成 代码块 static静态成员等">
+      <created>1659270929981</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659270929981</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +286,8 @@
     <MESSAGE value="零钱通基础版" />
     <MESSAGE value="零钱通OOP改进版" />
     <MESSAGE value="完成房屋出租系统" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成房屋出租系统" />
+    <MESSAGE value="完成 代码块 static静态成员等" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 代码块 static静态成员等" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
