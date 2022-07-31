@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="零钱通OOP改进版">
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="完成房屋出租系统">
       <change afterPath="$PROJECT_DIR$/com/lzc/BankAccount/BankAccount.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/com/lzc/BankAccount/CheckingAccount.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/com/lzc/BankAccount/HomeWork08.java" afterDir="false" />
@@ -178,7 +178,7 @@
       <workItem from="1659188875275" duration="733000" />
       <workItem from="1659190346141" duration="413000" />
       <workItem from="1659190829886" duration="3432000" />
-      <workItem from="1659247458109" duration="8359000" />
+      <workItem from="1659247458109" duration="8774000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -243,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659194017477</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="完成房屋出租系统">
+      <created>1659257733190</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659257733190</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +276,19 @@
     <MESSAGE value="学习String equals ==区别" />
     <MESSAGE value="零钱通基础版" />
     <MESSAGE value="零钱通OOP改进版" />
-    <option name="LAST_COMMIT_MESSAGE" value="零钱通OOP改进版" />
+    <MESSAGE value="完成房屋出租系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成房屋出租系统" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/lzc/houserent/service/HouseService.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
