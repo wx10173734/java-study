@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="单例模式(饿汉式和懒汉式)">
-      <change afterPath="$PROJECT_DIR$/com/final_/Final01.java" afterDir="false" />
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="学习final">
+      <change afterPath="$PROJECT_DIR$/com/abstract_/AA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/abstract_/BB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/abstract_/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/abstract_/TestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/interface_/AInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/interface_/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/interface_/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/interface_/ExtendsVsInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/interface_/InterFace02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/interface_/Interface01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/interface_/InterfacePolyArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/interface_/InterfacePolyParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/interface_/InterfacePolyPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/interface_/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/interface_/UsbInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -73,13 +88,13 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.3257329&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SingleTon02 (1)">
-    <configuration name="CodeBlockDetail03 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.static_.CodeBlockDetail03" />
+  <component name="RunManager" selected="Application.InterfacePolyArr">
+    <configuration name="ExtendsVsInterface (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interface_.ExtendsVsInterface" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.static_.*" />
+          <option name="PATTERN" value="com.interface_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeBlockDetail03 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.static_.CodeBlockDetail03" />
+    <configuration name="ExtendsVsInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interface_.ExtendsVsInterface" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.static_.*" />
+          <option name="PATTERN" value="com.interface_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleTon01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.SingleTon.SingleTon01" />
+    <configuration name="Interface01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interface_.Interface01" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.SingleTon.*" />
+          <option name="PATTERN" value="com.interface_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleTon02 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.SingleTon.SingleTon02" />
+    <configuration name="InterfacePolyArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interface_.InterfacePolyArr" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.SingleTon.*" />
+          <option name="PATTERN" value="com.interface_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleTon02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.SingleTon.SingleTon02" />
+    <configuration name="TestTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abstract_.TestTemplate" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.SingleTon.*" />
+          <option name="PATTERN" value="com.abstract_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingleTon02 (1)" />
-        <item itemvalue="Application.SingleTon02" />
-        <item itemvalue="Application.SingleTon01" />
-        <item itemvalue="Application.CodeBlockDetail03 (4)" />
-        <item itemvalue="Application.CodeBlockDetail03 (3)" />
+        <item itemvalue="Application.InterfacePolyArr" />
+        <item itemvalue="Application.ExtendsVsInterface (1)" />
+        <item itemvalue="Application.ExtendsVsInterface" />
+        <item itemvalue="Application.Interface01" />
+        <item itemvalue="Application.TestTemplate" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +187,11 @@
       <workItem from="1659247458109" duration="9524000" />
       <workItem from="1659265574118" duration="4802000" />
       <workItem from="1659272670375" duration="2449000" />
+      <workItem from="1659276038995" duration="251000" />
+      <workItem from="1659331373592" duration="3042000" />
+      <workItem from="1659335521550" duration="213000" />
+      <workItem from="1659335751135" duration="152000" />
+      <workItem from="1659335922299" duration="2668000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -264,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659274203677</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="学习final">
+      <created>1659276067716</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659276067716</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +320,8 @@
     <MESSAGE value="完成房屋出租系统" />
     <MESSAGE value="完成 代码块 static静态成员等" />
     <MESSAGE value="单例模式(饿汉式和懒汉式)" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例模式(饿汉式和懒汉式)" />
+    <MESSAGE value="学习final" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -302,6 +330,11 @@
           <url>file://$PROJECT_DIR$/com/oop/houserent/service/HouseService.java</url>
           <line>71</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/abstract_/TestTemplate.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
