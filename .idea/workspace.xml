@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="学习final">
-      <change afterPath="$PROJECT_DIR$/com/abstract_/AA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/abstract_/BB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/abstract_/Template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/abstract_/TestTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/interface_/AInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/interface_/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/interface_/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/interface_/ExtendsVsInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/interface_/InterFace02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/interface_/Interface01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/interface_/InterfacePolyArr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/interface_/InterfacePolyParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/interface_/InterfacePolyPass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/interface_/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/interface_/UsbInterface.java" afterDir="false" />
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="学习interface接口">
+      <change afterPath="$PROJECT_DIR$/com/innerclass/AnonymousInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/innerclass/InnerClass01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/innerclass/LocalInnerClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,13 +79,13 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.3257329&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.InterfacePolyArr">
-    <configuration name="ExtendsVsInterface (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interface_.ExtendsVsInterface" />
+  <component name="RunManager" selected="Application.AnonymousInnerClass">
+    <configuration name="AnonymousInnerClass (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.innerclass.AnonymousInnerClass" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interface_.*" />
+          <option name="PATTERN" value="com.innerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendsVsInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interface_.ExtendsVsInterface" />
+    <configuration name="AnonymousInnerClass (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.innerclass.AnonymousInnerClass" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interface_.*" />
+          <option name="PATTERN" value="com.innerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Interface01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interface_.Interface01" />
+    <configuration name="AnonymousInnerClass (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.innerclass.AnonymousInnerClass" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interface_.*" />
+          <option name="PATTERN" value="com.innerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfacePolyArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interface_.InterfacePolyArr" />
+    <configuration name="AnonymousInnerClass (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.innerclass.AnonymousInnerClass" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interface_.*" />
+          <option name="PATTERN" value="com.innerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abstract_.TestTemplate" />
+    <configuration name="AnonymousInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.innerclass.AnonymousInnerClass" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abstract_.*" />
+          <option name="PATTERN" value="com.innerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterfacePolyArr" />
-        <item itemvalue="Application.ExtendsVsInterface (1)" />
-        <item itemvalue="Application.ExtendsVsInterface" />
-        <item itemvalue="Application.Interface01" />
-        <item itemvalue="Application.TestTemplate" />
+        <item itemvalue="Application.AnonymousInnerClass" />
+        <item itemvalue="Application.AnonymousInnerClass (5)" />
+        <item itemvalue="Application.AnonymousInnerClass (4)" />
+        <item itemvalue="Application.AnonymousInnerClass (3)" />
+        <item itemvalue="Application.AnonymousInnerClass (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +182,7 @@
       <workItem from="1659331373592" duration="3042000" />
       <workItem from="1659335521550" duration="213000" />
       <workItem from="1659335751135" duration="152000" />
-      <workItem from="1659335922299" duration="2668000" />
+      <workItem from="1659335922299" duration="8510000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -291,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659276067716</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="学习interface接口">
+      <created>1659339340610</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659339340610</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +319,8 @@
     <MESSAGE value="完成 代码块 static静态成员等" />
     <MESSAGE value="单例模式(饿汉式和懒汉式)" />
     <MESSAGE value="学习final" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习final" />
+    <MESSAGE value="学习interface接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习interface接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
