@@ -51,6 +51,7 @@ class Outer04 {
         //1.father 编译类型是 father
         //2.运行运行 Outer04$2
         //3.底层会创建匿名内部类
+        // class Outer04$2 extends Father
         //4.同时也直接返回了匿名内部类 Outer04$2的对象
         //5.注意参数列表会传递给构造器
         Father father = new Father("jack"){
