@@ -18,6 +18,7 @@ public class MemberInnerClass {
         Outer08.Inner08 inner08 = outer08.getInner08();
         inner08.say();
         Outer08.Inner08 inner081 = new Outer08().getInner08();
+        new Outer08().new Inner08().say();
     }
 }
 

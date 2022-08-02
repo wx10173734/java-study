@@ -7,13 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="完成学习内部类相关知识">
-      <change afterPath="$PROJECT_DIR$/com/enum_/EnumMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/enum_/Enumeration01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/enum_/Enumeration02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/enum_/Enumeration03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/enum_/Week.java" afterDir="false" />
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="完成枚举类">
+      <change afterPath="$PROJECT_DIR$/com/test10_exercise/Frock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test10_exercise/HomeWork01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test10_exercise/HomeWork04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test10_exercise/HomeWork05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test10_exercise/HomeWork06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test10_exercise/HomeWork07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test10_exercise/HomeWork08.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/innerclass/MemberInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/innerclass/MemberInnerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,27 +65,28 @@
     <option name="showMembers" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3257329&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Project.color": "451024",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.3257329"
   }
-}</component>
-  <component name="RunManager" selected="Application.InnerTest">
+}]]></component>
+  <component name="RunManager" selected="Application.HomeWork08">
     <configuration name="EnumMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.enum_.EnumMethod" />
       <module name="java-study" />
@@ -96,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Enumeration02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.enum_.Enumeration02" />
+    <configuration name="HomeWork07 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test10_exercise.HomeWork07" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.enum_.*" />
+          <option name="PATTERN" value="com.test10_exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Enumeration03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.enum_.Enumeration03" />
+    <configuration name="HomeWork07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test10_exercise.HomeWork07" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.enum_.*" />
+          <option name="PATTERN" value="com.test10_exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.innerclass.InnerTest" />
+    <configuration name="HomeWork08 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test10_exercise.HomeWork08" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.innerclass.*" />
+          <option name="PATTERN" value="com.test10_exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticInnerClass01 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.innerclass.StaticInnerClass01" />
+    <configuration name="HomeWork08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test10_exercise.HomeWork08" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.innerclass.*" />
+          <option name="PATTERN" value="com.test10_exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork08" />
         <item itemvalue="Application.EnumMethod" />
-        <item itemvalue="Application.Enumeration03" />
-        <item itemvalue="Application.Enumeration02" />
-        <item itemvalue="Application.InnerTest" />
-        <item itemvalue="Application.StaticInnerClass01 (2)" />
+        <item itemvalue="Application.HomeWork08 (1)" />
+        <item itemvalue="Application.HomeWork07" />
+        <item itemvalue="Application.HomeWork07 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +192,9 @@
       <workItem from="1659335922299" duration="8510000" />
       <workItem from="1659367589103" duration="773000" />
       <workItem from="1659415471425" duration="3603000" />
-      <workItem from="1659419092087" duration="4117000" />
+      <workItem from="1659419092087" duration="4389000" />
+      <workItem from="1659446902499" duration="174000" />
+      <workItem from="1659447099094" duration="8453000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -309,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659420540323</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="完成枚举类">
+      <created>1659423292082</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659423292082</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +355,8 @@
     <MESSAGE value="学习interface接口" />
     <MESSAGE value="学习内部类和匿名内部类" />
     <MESSAGE value="完成学习内部类相关知识" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成学习内部类相关知识" />
+    <MESSAGE value="完成枚举类" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成枚举类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
