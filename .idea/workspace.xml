@@ -7,15 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="学习内部类和匿名内部类">
-      <change afterPath="$PROJECT_DIR$/com/innerclass/AnonymousInnerClassDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/innerclass/InnerClassExercise01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/innerclass/InnerClassExercise02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/innerclass/InnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/innerclass/MemberInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/innerclass/StaticInnerClass01.java" afterDir="false" />
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="完成学习内部类相关知识">
+      <change afterPath="$PROJECT_DIR$/com/enum_/EnumMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/enum_/Enumeration01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/enum_/Enumeration02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/enum_/Enumeration03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/enum_/Week.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/innerclass/AnonymousInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/innerclass/AnonymousInnerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -84,34 +83,47 @@
   }
 }</component>
   <component name="RunManager" selected="Application.InnerTest">
+    <configuration name="EnumMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.enum_.EnumMethod" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.enum_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Enumeration02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.enum_.Enumeration02" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.enum_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Enumeration03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.enum_.Enumeration03" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.enum_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InnerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.innerclass.InnerTest" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.innerclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberInnerClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.innerclass.MemberInnerClass" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.innerclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticInnerClass01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.innerclass.StaticInnerClass01" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
@@ -136,26 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticInnerClass01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.innerclass.StaticInnerClass01" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.innerclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumMethod" />
+        <item itemvalue="Application.Enumeration03" />
+        <item itemvalue="Application.Enumeration02" />
         <item itemvalue="Application.InnerTest" />
         <item itemvalue="Application.StaticInnerClass01 (2)" />
-        <item itemvalue="Application.StaticInnerClass01 (1)" />
-        <item itemvalue="Application.StaticInnerClass01" />
-        <item itemvalue="Application.MemberInnerClass (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +188,7 @@
       <workItem from="1659335922299" duration="8510000" />
       <workItem from="1659367589103" duration="773000" />
       <workItem from="1659415471425" duration="3603000" />
-      <workItem from="1659419092087" duration="963000" />
+      <workItem from="1659419092087" duration="4117000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -303,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659367612300</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="完成学习内部类相关知识">
+      <created>1659420540323</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659420540323</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +341,8 @@
     <MESSAGE value="学习final" />
     <MESSAGE value="学习interface接口" />
     <MESSAGE value="学习内部类和匿名内部类" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习内部类和匿名内部类" />
+    <MESSAGE value="完成学习内部类相关知识" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成学习内部类相关知识" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -349,6 +356,25 @@
           <url>file://$PROJECT_DIR$/com/abstract_/TestTemplate.java</url>
           <line>10</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/innerclass/InnerTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/innerclass/InnerTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/com/innerclass/InnerTest.java</url>
+          <line>8</line>
+          <properties class="com.innerclass.InnerTest" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
