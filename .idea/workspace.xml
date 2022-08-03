@@ -7,16 +7,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="完成枚举类">
-      <change afterPath="$PROJECT_DIR$/com/test10_exercise/Frock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test10_exercise/HomeWork01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test10_exercise/HomeWork04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test10_exercise/HomeWork05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test10_exercise/HomeWork06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test10_exercise/HomeWork07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test10_exercise/HomeWork08.java" afterDir="false" />
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="完成 第十章与第十一章作业">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/exception_/ClassCastException_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/exception_/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/exception_/Exception01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/exception_/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/exception_/ExceptionTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/exception_/HomeWork01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/exception_/NullPointException_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/exception_/NumberFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/exception_/Throws01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/exception_/ThrowsDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/exception_/TryCatchDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/exception_/TryCatchDetail02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/innerclass/MemberInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/innerclass/MemberInnerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +41,9 @@
     <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/com/exception_/ClassCastException_.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/com/exception_/NullPointException_.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/com/exception_/NumberFormatException.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/com/oop/BankAccount/BankAccount.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/com/oop/BankAccount/CheckingAccount.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -81,18 +89,19 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.editor",
     "settings.editor.splitter.proportion": "0.3257329"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HomeWork08">
-    <configuration name="EnumMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.enum_.EnumMethod" />
+  <component name="RunManager" selected="Application.HomeWork01">
+    <configuration name="CustomException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exception_.CustomException" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.enum_.*" />
+          <option name="PATTERN" value="com.exception_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork07 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test10_exercise.HomeWork07" />
+    <configuration name="ExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exception_.ExceptionTest" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test10_exercise.*" />
+          <option name="PATTERN" value="com.exception_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test10_exercise.HomeWork07" />
+    <configuration name="ExceptionTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exception_.ExceptionTest02" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test10_exercise.*" />
+          <option name="PATTERN" value="com.exception_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +135,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork08 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test10_exercise.HomeWork08" />
+    <configuration name="HomeWork01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.exception_.HomeWork01" />
       <module name="java-study" />
+      <option name="PROGRAM_PARAMETERS" value="10 0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test10_exercise.*" />
+          <option name="PATTERN" value="com.exception_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test10_exercise.HomeWork08" />
+    <configuration name="ThrowsDetail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exception_.ThrowsDetail" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test10_exercise.*" />
+          <option name="PATTERN" value="com.exception_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,13 +164,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CustomException" />
+      <item itemvalue="Application.ExceptionTest" />
+      <item itemvalue="Application.ExceptionTest02" />
+      <item itemvalue="Application.HomeWork01" />
+      <item itemvalue="Application.ThrowsDetail" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeWork08" />
-        <item itemvalue="Application.EnumMethod" />
-        <item itemvalue="Application.HomeWork08 (1)" />
-        <item itemvalue="Application.HomeWork07" />
-        <item itemvalue="Application.HomeWork07 (3)" />
+        <item itemvalue="Application.HomeWork01" />
+        <item itemvalue="Application.CustomException" />
+        <item itemvalue="Application.ThrowsDetail" />
+        <item itemvalue="Application.ExceptionTest02" />
+        <item itemvalue="Application.ExceptionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +213,8 @@
       <workItem from="1659415471425" duration="3603000" />
       <workItem from="1659419092087" duration="4389000" />
       <workItem from="1659446902499" duration="174000" />
-      <workItem from="1659447099094" duration="8453000" />
+      <workItem from="1659447099094" duration="8786000" />
+      <workItem from="1659529908942" duration="7349000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -322,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659423292082</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="完成 第十章与第十一章作业">
+      <created>1659456144624</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659456144624</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +383,8 @@
     <MESSAGE value="学习内部类和匿名内部类" />
     <MESSAGE value="完成学习内部类相关知识" />
     <MESSAGE value="完成枚举类" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成枚举类" />
+    <MESSAGE value="完成 第十章与第十一章作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 第十章与第十一章作业" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -389,6 +417,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/com/exception_/ExceptionTest.java</url>
+          <line>11</line>
+          <properties class="com.exception_.ExceptionTest" method="method">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
