@@ -7,15 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="学习BigInteget 以及 BigDeciaml 大数处理方案">
-      <change afterPath="$PROJECT_DIR$/com/date/Calendar_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/date/Date_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/date/HomeWork01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/date/HomeWork02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/date/HomeWork03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/date/HomeWork04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/date/Instant_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/date/LocalDate_.java" afterDir="false" />
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="学习集合 以及学了ArrayList底层源码扩容机制">
+      <change afterPath="$PROJECT_DIR$/com/collection_/CollectionFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/collection_/CollectionIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/collection_/CollectionMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/collection_/Collection_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/list_/ArrayListSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/list_/ListExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/list_/ListExercise02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/list_/ListMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/list_/List_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,17 +90,17 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.3257329&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HomeWork04">
-    <configuration name="HomeWork01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.date.HomeWork01" />
+  <component name="RunManager" selected="Application.ArrayListSource">
+    <configuration name="ArrayListSource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.list_.ArrayListSource" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.date.*" />
+          <option name="PATTERN" value="com.list_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.date.HomeWork02" />
+    <configuration name="ListExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.list_.ListExercise" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.date.*" />
+          <option name="PATTERN" value="com.list_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.date.HomeWork03" />
+    <configuration name="ListExercise02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.list_.ListExercise02" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.date.*" />
+          <option name="PATTERN" value="com.list_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.date.HomeWork04" />
+    <configuration name="ListMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.list_.ListMethod" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.date.*" />
+          <option name="PATTERN" value="com.list_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalDate_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.date.LocalDate_" />
+    <configuration name="List_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.list_.List_" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.date.*" />
+          <option name="PATTERN" value="com.list_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,19 +161,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HomeWork02" />
-      <item itemvalue="Application.HomeWork03" />
-      <item itemvalue="Application.HomeWork04" />
-      <item itemvalue="Application.LocalDate_" />
-      <item itemvalue="Application.HomeWork01" />
+      <item itemvalue="Application.ArrayListSource" />
+      <item itemvalue="Application.ListExercise" />
+      <item itemvalue="Application.ListExercise02" />
+      <item itemvalue="Application.ListMethod" />
+      <item itemvalue="Application.List_" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeWork04" />
-        <item itemvalue="Application.HomeWork03" />
-        <item itemvalue="Application.HomeWork02" />
-        <item itemvalue="Application.HomeWork01" />
-        <item itemvalue="Application.LocalDate_" />
+        <item itemvalue="Application.ArrayListSource" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +209,11 @@
       <workItem from="1659529908942" duration="8297000" />
       <workItem from="1659596592559" duration="979000" />
       <workItem from="1659618772956" duration="4833000" />
-      <workItem from="1659680583442" duration="15953000" />
+      <workItem from="1659680583442" duration="16442000" />
+      <workItem from="1659769770917" duration="870000" />
+      <workItem from="1659790363390" duration="5855000" />
+      <workItem from="1659796252740" duration="174000" />
+      <workItem from="1659796448473" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -389,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659693140920</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="学习日期类以及完成第13章关于String的习题">
+      <created>1659696887102</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659696887102</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +438,9 @@
     <MESSAGE value="学习Math 以及Arrays" />
     <MESSAGE value="学习System方法" />
     <MESSAGE value="学习BigInteget 以及 BigDeciaml 大数处理方案" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习BigInteget 以及 BigDeciaml 大数处理方案" />
+    <MESSAGE value="学习日期类以及完成第13章关于String的习题" />
+    <MESSAGE value="学习集合 以及学了ArrayList底层源码扩容机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习集合 以及学了ArrayList底层源码扩容机制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -459,6 +469,11 @@
           <url>file://$PROJECT_DIR$/com/wrapper/sringbuffer/StringBufferExercise01.java</url>
           <line>14</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/list_/ArrayListSource.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com/innerclass/InnerTest.java</url>
@@ -489,6 +504,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <inline-watch fileUrl="jar://$PROJECT_DIR$/../../../../environment/jdk1.8.0_311/src.zip!/java/util/ArrayList.java" line="266">
+        <watch expression="((ArrayList)this).elementData" language="JAVA" custom="java.util.ArrayList" />
+      </inline-watch>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
