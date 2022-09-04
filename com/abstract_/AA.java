@@ -14,6 +14,5 @@ public class AA extends Template{
         }
     }
 }
-    //计算任务
-    //1+...+10000
+    //冒泡排序
 

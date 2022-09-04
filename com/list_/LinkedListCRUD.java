@@ -28,5 +28,15 @@ public class LinkedListCRUD {
             Object next =  iterator.next();
             System.out.println(next);
         }
+
+        LinkedList linkedList1 = new LinkedList<>();
+        linkedList1.add(1);
+        linkedList1.add(2);
+        linkedList1.add(3);
+        System.out.println(linkedList1);
+
+
+
+        
     }
 }

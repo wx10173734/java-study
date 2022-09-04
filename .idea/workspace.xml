@@ -7,10 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="学习集合 以及学了ArrayList底层源码扩容机制">
-      <change afterPath="$PROJECT_DIR$/com/list_/LinkedList01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/list_/LinkedListCRUD.java" afterDir="false" />
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="学习LinkdeList底层原理(添加，删除等)">
+      <change afterPath="$PROJECT_DIR$/com/list_/Vertor_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/abstract_/AA.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/abstract_/AA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/list_/LinkedListCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/list_/LinkedListCRUD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/luozouchen/Desktop/EmploymentSystem-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -127,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.list_.ListMethod" />
+    <configuration name="Vertor_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.list_.Vertor_" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
@@ -140,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.list_.List_" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.list_.*" />
+          <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,16 +156,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Vertor_" />
+      <item itemvalue="Application.test" />
       <item itemvalue="Application.LinkedList01" />
       <item itemvalue="Application.LinkedListCRUD" />
       <item itemvalue="Application.ArrayListSource" />
-      <item itemvalue="Application.ListMethod" />
-      <item itemvalue="Application.List_" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.LinkedListCRUD" />
         <item itemvalue="Application.LinkedList01" />
+        <item itemvalue="Application.Vertor_" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.ArrayListSource" />
       </list>
     </recent_temporary>
@@ -209,7 +213,24 @@
       <workItem from="1659790363390" duration="5855000" />
       <workItem from="1659796252740" duration="174000" />
       <workItem from="1659796448473" duration="482000" />
-      <workItem from="1660108523066" duration="2989000" />
+      <workItem from="1660108523066" duration="3279000" />
+      <workItem from="1661135633457" duration="733000" />
+      <workItem from="1661186855247" duration="103000" />
+      <workItem from="1661772528226" duration="202000" />
+      <workItem from="1661913128420" duration="106000" />
+      <workItem from="1661913247309" duration="22000" />
+      <workItem from="1661913966747" duration="61000" />
+      <workItem from="1662036400407" duration="12000" />
+      <workItem from="1662037776520" duration="18000" />
+      <workItem from="1662037892601" duration="11000" />
+      <workItem from="1662174204026" duration="33000" />
+      <workItem from="1662174265531" duration="326000" />
+      <workItem from="1662174648298" duration="2242000" />
+      <workItem from="1662294505230" duration="648000" />
+      <workItem from="1662295179715" duration="81000" />
+      <workItem from="1662295280971" duration="22000" />
+      <workItem from="1662295319134" duration="673000" />
+      <workItem from="1662296054798" duration="3039000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -400,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659796796537</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="学习LinkdeList底层原理(添加，删除等)">
+      <created>1660111756096</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1660111756096</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +446,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="for循环学习" />
     <MESSAGE value="for循环学习 打印空菱形" />
     <MESSAGE value="学习数组，冒泡，杨辉三角等内容" />
     <MESSAGE value="学习oop,封装" />
@@ -443,7 +470,8 @@
     <MESSAGE value="学习BigInteget 以及 BigDeciaml 大数处理方案" />
     <MESSAGE value="学习日期类以及完成第13章关于String的习题" />
     <MESSAGE value="学习集合 以及学了ArrayList底层源码扩容机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习集合 以及学了ArrayList底层源码扩容机制" />
+    <MESSAGE value="学习LinkdeList底层原理(添加，删除等)" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习LinkdeList底层原理(添加，删除等)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -472,6 +500,11 @@
           <url>file://$PROJECT_DIR$/com/wrapper/sringbuffer/StringBufferExercise01.java</url>
           <line>14</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/list_/LinkedListCRUD.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com/innerclass/InnerTest.java</url>
