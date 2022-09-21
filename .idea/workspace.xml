@@ -8,9 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="学习hashset底层源码">
-      <change afterPath="$PROJECT_DIR$/com/set_/HashSetIncrement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/map_/MapExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/map_/MapFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/map_/MapMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/map_/MapSource_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/map_/Map_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/set_/HashSetExercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/set_/LinkedHashSetExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/set_/LinkedHashSetSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/set_/HashSetSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/set_/HashSetSource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +43,6 @@
     <setting file="file://$PROJECT_DIR$/com/exception_/NumberFormatException.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/com/oop/BankAccount/BankAccount.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/com/oop/BankAccount/CheckingAccount.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../../../environment/jdk1.8.0_311/src.zip!/java/lang/ClassLoader.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../../../environment/jdk1.8.0_311/src.zip!/java/lang/System.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../../../environment/jdk1.8.0_311/src.zip!/java/util/HashMap.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../../../environment/jdk1.8.0_311/src.zip!/java/util/HashSet.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,39 +70,39 @@
     <option name="showMembers" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Project.color&quot;: &quot;451024&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/luozouchen/Desktop/EmploymentSystem-master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3257329&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Project.color": "451024",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/study/class/class2/java-reStudy/java-study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.3257329"
   }
-}</component>
-  <component name="RunManager" selected="Application.HashSetExercise (2)">
-    <configuration name="HashSetExercise (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.set_.HashSetExercise" />
+}]]></component>
+  <component name="RunManager" selected="Application.MapExercise">
+    <configuration name="MapExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.map_.MapExercise" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.set_.*" />
+          <option name="PATTERN" value="com.map_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetExercise (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.set_.HashSetExercise" />
+    <configuration name="MapFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.map_.MapFor" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.set_.*" />
+          <option name="PATTERN" value="com.map_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.set_.HashSetExercise" />
+    <configuration name="MapMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.map_.MapMethod" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.set_.*" />
+          <option name="PATTERN" value="com.map_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetIncrement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.set_.HashSetIncrement" />
+    <configuration name="MapSource_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.map_.MapSource_" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.set_.*" />
+          <option name="PATTERN" value="com.map_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetIncrement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.set_.HashSetIncrement" />
+    <configuration name="Map_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.map_.Map_" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.set_.*" />
+          <option name="PATTERN" value="com.map_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,19 +163,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HashSetExercise" />
-      <item itemvalue="Application.HashSetExercise (1)" />
-      <item itemvalue="Application.HashSetExercise (2)" />
-      <item itemvalue="Application.HashSetIncrement" />
-      <item itemvalue="Application.HashSetIncrement (1)" />
+      <item itemvalue="Application.MapExercise" />
+      <item itemvalue="Application.MapFor" />
+      <item itemvalue="Application.MapMethod" />
+      <item itemvalue="Application.MapSource_" />
+      <item itemvalue="Application.Map_" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashSetExercise (2)" />
-        <item itemvalue="Application.HashSetExercise" />
-        <item itemvalue="Application.HashSetExercise (1)" />
-        <item itemvalue="Application.HashSetIncrement" />
-        <item itemvalue="Application.HashSetIncrement (1)" />
+        <item itemvalue="Application.MapExercise" />
+        <item itemvalue="Application.MapFor" />
+        <item itemvalue="Application.MapSource_" />
+        <item itemvalue="Application.MapMethod" />
+        <item itemvalue="Application.Map_" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +246,15 @@
       <workItem from="1663234562713" duration="2877000" />
       <workItem from="1663242898582" duration="4428000" />
       <workItem from="1663249883115" duration="921000" />
-      <workItem from="1663255600713" duration="1369000" />
+      <workItem from="1663255600713" duration="1712000" />
+      <workItem from="1663307476445" duration="553000" />
+      <workItem from="1663329344285" duration="1478000" />
+      <workItem from="1663336067865" duration="217000" />
+      <workItem from="1663492001404" duration="7596000" />
+      <workItem from="1663578095264" duration="29000" />
+      <workItem from="1663579757620" duration="1458000" />
+      <workItem from="1663595401284" duration="9000" />
+      <workItem from="1663760167277" duration="8739000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -454,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662649731629</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="学习hashset底层源码">
+      <created>1663257289757</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1663257289757</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,6 +571,16 @@
           <line>39</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/map_/Map_.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/map_/MapSource_.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com/innerclass/InnerTest.java</url>
           <line>8</line>
@@ -586,11 +615,6 @@
         <PinnedItemInfo parentTag="java.util.LinkedList$Node" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>
-    <watches-manager>
-      <inline-watch fileUrl="jar://$PROJECT_DIR$/../../../../environment/jdk1.8.0_311/src.zip!/java/util/ArrayList.java" line="266">
-        <watch expression="((ArrayList)this).elementData" language="JAVA" custom="java.util.ArrayList" />
-      </inline-watch>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
