@@ -7,22 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="集合学习完毕">
-      <change afterPath="$PROJECT_DIR$/com/fanxing/Gemeric03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/fanxing/Generic01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/fanxing/GenericDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/fanxing/GenericExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/fanxing/GenericExercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/fanxing/HomeWork01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/fanxing/customgeneric/CustomGeneric_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/fanxing/customgeneric/CustomInterfaceGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/fanxing/customgeneric/CustomMethodGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/fanxing/customgeneric/CustomMethodGenericExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/fanxing/customgeneric/GenericExtends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/fanxing/improve/Gemeric02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/junit_/JUnit_.java" afterDir="false" />
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="泛型学习完毕">
+      <change afterPath="$PROJECT_DIR$/thread/CpuNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/exit_/ThreadExit_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/method/ThreadMethod01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/threaduse/ProxyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/threaduse/SellTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/threaduse/Thread01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/threaduse/Thread02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/threaduse/Thread03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-study.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +36,7 @@
     <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../environment/Java/jdk1.8.0_341/src.zip!/java/lang/Thread.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../../../../environment/Java/jdk1.8.0_341/src.zip!/java/util/Collections.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/com/exception_/ClassCastException_.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/com/exception_/NullPointException_.java" root0="FORCE_HIGHLIGHTING" />
@@ -103,13 +98,13 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.3257329&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HomeWork01">
-    <configuration name="HomeWork01 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fanxing.HomeWork01" />
+  <component name="RunManager" selected="Application.ThreadMethod01">
+    <configuration name="SellTicket (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.threaduse.SellTicket" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fanxing.*" />
+          <option name="PATTERN" value="thread.threaduse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork01 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fanxing.HomeWork01" />
+    <configuration name="SellTicket (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.threaduse.SellTicket" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fanxing.*" />
+          <option name="PATTERN" value="thread.threaduse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork01 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fanxing.HomeWork01" />
+    <configuration name="Thread01 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.threaduse.Thread01" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fanxing.*" />
+          <option name="PATTERN" value="thread.threaduse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fanxing.HomeWork01" />
+    <configuration name="ThreadExit_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.exit_.ThreadExit_" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fanxing.*" />
+          <option name="PATTERN" value="thread.exit_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,29 +151,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JUnit_.m1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadMethod01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.method.ThreadMethod01" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.junit_.*" />
+          <option name="PATTERN" value="thread.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.junit_" />
-      <option name="MAIN_CLASS_NAME" value="com.junit_.JUnit_" />
-      <option name="METHOD_NAME" value="m1" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadMethod01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.method.ThreadMethod01" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeWork01" />
-        <item itemvalue="JUnit.JUnit_.m1" />
-        <item itemvalue="Application.HomeWork01 (4)" />
-        <item itemvalue="Application.HomeWork01 (3)" />
-        <item itemvalue="Application.HomeWork01 (2)" />
+        <item itemvalue="Application.ThreadMethod01" />
+        <item itemvalue="Application.ThreadMethod01 (1)" />
+        <item itemvalue="Application.ThreadExit_" />
+        <item itemvalue="Application.SellTicket (1)" />
+        <item itemvalue="Application.SellTicket (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +271,8 @@
       <workItem from="1663942926718" duration="6658000" />
       <workItem from="1663996372812" duration="5453000" />
       <workItem from="1664028322027" duration="3726000" />
-      <workItem from="1664081835740" duration="8537000" />
+      <workItem from="1664081835740" duration="10697000" />
+      <workItem from="1664259858153" duration="19726000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -499,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663949147159</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="泛型学习完毕">
+      <created>1664112824371</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1664112824371</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="学习String equals ==区别" />
     <MESSAGE value="零钱通基础版" />
     <MESSAGE value="零钱通OOP改进版" />
     <MESSAGE value="完成房屋出租系统" />
@@ -542,7 +554,8 @@
     <MESSAGE value="学习hashset底层源码" />
     <MESSAGE value="学习map接口特点" />
     <MESSAGE value="集合学习完毕" />
-    <option name="LAST_COMMIT_MESSAGE" value="集合学习完毕" />
+    <MESSAGE value="泛型学习完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="泛型学习完毕" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
