@@ -7,15 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="泛型学习完毕">
-      <change afterPath="$PROJECT_DIR$/thread/CpuNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/exit_/ThreadExit_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/method/ThreadMethod01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/threaduse/ProxyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/threaduse/SellTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/threaduse/Thread01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/threaduse/Thread02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/threaduse/Thread03.java" afterDir="false" />
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="开始学习线程知识">
+      <change afterPath="$PROJECT_DIR$/thread/homework/HomeWork01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/homework/HomeWork02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/method/ThreadMethod02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/method/ThreadMethod03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/method/ThreadMethodExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/state/ThreadState_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/syn/DeadLock_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/syn/SellTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,39 +72,44 @@
     <option name="showMembers" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Project.color&quot;: &quot;451024&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/study/class/class2/java-reStudy/java-study&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3257329&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Project.color": "451024",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/study/class/class2/java-reStudy/java-study/thread/syn",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.3257329"
   }
-}</component>
-  <component name="RunManager" selected="Application.ThreadMethod01">
-    <configuration name="SellTicket (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.threaduse.SellTicket" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study\class\class2\java-reStudy\java-study\thread\syn" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HomeWork02">
+    <configuration name="HomeWork02 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.homework.HomeWork02" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.threaduse.*" />
+          <option name="PATTERN" value="thread.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SellTicket (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.threaduse.SellTicket" />
+    <configuration name="HomeWork02 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.homework.HomeWork02" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.threaduse.*" />
+          <option name="PATTERN" value="thread.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread01 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.threaduse.Thread01" />
+    <configuration name="HomeWork02 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.homework.HomeWork02" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.threaduse.*" />
+          <option name="PATTERN" value="thread.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadExit_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.exit_.ThreadExit_" />
+    <configuration name="HomeWork02 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.homework.HomeWork02" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.exit_.*" />
+          <option name="PATTERN" value="thread.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethod01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.method.ThreadMethod01" />
+    <configuration name="HomeWork02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.homework.HomeWork02" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.method.*" />
+          <option name="PATTERN" value="thread.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +169,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethod01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.method.ThreadMethod01" />
+    <configuration name="e1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.e1" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.method.*" />
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="e1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.e1" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="e1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.e1" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadMethod01" />
-        <item itemvalue="Application.ThreadMethod01 (1)" />
-        <item itemvalue="Application.ThreadExit_" />
-        <item itemvalue="Application.SellTicket (1)" />
-        <item itemvalue="Application.SellTicket (5)" />
+        <item itemvalue="Application.HomeWork02" />
+        <item itemvalue="Application.HomeWork02 (2)" />
+        <item itemvalue="Application.HomeWork02 (1)" />
+        <item itemvalue="Application.HomeWork02 (5)" />
+        <item itemvalue="Application.HomeWork02 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +303,9 @@
       <workItem from="1663996372812" duration="5453000" />
       <workItem from="1664028322027" duration="3726000" />
       <workItem from="1664081835740" duration="10697000" />
-      <workItem from="1664259858153" duration="19726000" />
+      <workItem from="1664259858153" duration="19991000" />
+      <workItem from="1664294270314" duration="465000" />
+      <workItem from="1664343871122" duration="19299000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -512,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664112824371</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="开始学习线程知识">
+      <created>1664292875921</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1664292875921</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="零钱通基础版" />
     <MESSAGE value="零钱通OOP改进版" />
     <MESSAGE value="完成房屋出租系统" />
     <MESSAGE value="完成 代码块 static静态成员等" />
@@ -555,7 +594,8 @@
     <MESSAGE value="学习map接口特点" />
     <MESSAGE value="集合学习完毕" />
     <MESSAGE value="泛型学习完毕" />
-    <option name="LAST_COMMIT_MESSAGE" value="泛型学习完毕" />
+    <MESSAGE value="开始学习线程知识" />
+    <option name="LAST_COMMIT_MESSAGE" value="开始学习线程知识" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
