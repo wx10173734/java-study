@@ -7,9 +7,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * @title: FileOutputStream01
  * @Author luozouchen
- * @Date: 2022/9/29 22:34
  * @Version 1.0
  */
 public class FileOutputStream01 {
