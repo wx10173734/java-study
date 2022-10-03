@@ -7,20 +7,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="学习FileInputStream,FileOutputStream">
-      <change afterPath="$PROJECT_DIR$/io/outputstream_/FileCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/reader/BufferedReader_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/reader/BufferedWriter_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/reader/FileReader_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/writer/BufferedCopy_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/writer/FileWriter_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/处理流设计模式/BufferedReader_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/处理流设计模式/FileReader_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/处理流设计模式/Reader_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/处理流设计模式/StringReader_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/处理流设计模式/Test_.java" afterDir="false" />
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="学习BufferedReader和BufferedWriter">
+      <change afterPath="$PROJECT_DIR$/io/dog.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/homework/HomeWork01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/homework/HomeWork02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/homework/HomeWork03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/inputstream_/ObjectInputStream_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/outputstream_/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/outputstream_/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/outputstream_/ObjectOutStream_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/printstream/PrintStream_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/printstream/PrintWriter_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/properties_/Properties01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/properties_/Properties02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/properties_/Properties03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/standard/InputAndOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/transformation/CodeQuetion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/transformation/InputStreamReader_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/transformation/OutputStreamWriter_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/writer/BufferedCopy02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/outputstream_/FileOutputStream01.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/outputstream_/FileOutputStream01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/writer/FileWriter_.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/writer/FileWriter_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,47 +81,51 @@
     <option name="autoscrollFromSource" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Project.color&quot;: &quot;451024&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/study/class/class2/java-reStudy/java-study/thread/syn&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3257329&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Project.color": "451024",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/study/class/class2/java-reStudy/java-study/io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "settings.editor.splitter.proportion": "0.3257329"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study\class\class2\java-reStudy\java-study\io" />
       <recent name="E:\study\class\class2\java-reStudy\java-study\thread\syn" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.homework" />
+      <recent name="io.properties_" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.BufferedCopy_">
-    <configuration name="BufferedCopy_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.writer.BufferedCopy_" />
+  <component name="RunManager" selected="JUnit.HomeWork03.m1">
+    <configuration name="HomeWork01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.homework.HomeWork01" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.writer.*" />
+          <option name="PATTERN" value="io.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BufferedReader_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.reader.BufferedReader_" />
+    <configuration name="HomeWork02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.homework.HomeWork02" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.reader.*" />
+          <option name="PATTERN" value="io.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BufferedWriter_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.reader.BufferedWriter_" />
+    <configuration name="HomeWork03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.homework.HomeWork03" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.reader.*" />
+          <option name="PATTERN" value="io.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileWriter_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.writer.FileWriter_" />
+    <configuration name="HomeWork03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.homework.HomeWork03" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.writer.*" />
+          <option name="PATTERN" value="io.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,26 +172,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.处理流设计模式.Test_" />
+    <configuration name="HomeWork03.m1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.处理流设计模式.*" />
+          <option name="PATTERN" value="io.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="io.homework" />
+      <option name="MAIN_CLASS_NAME" value="io.homework.HomeWork03" />
+      <option name="METHOD_NAME" value="m1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BufferedCopy_" />
-        <item itemvalue="Application.BufferedWriter_" />
-        <item itemvalue="Application.BufferedReader_" />
-        <item itemvalue="Application.Test_" />
-        <item itemvalue="Application.FileWriter_" />
+        <item itemvalue="JUnit.HomeWork03.m1" />
+        <item itemvalue="Application.HomeWork03" />
+        <item itemvalue="Application.HomeWork03 (1)" />
+        <item itemvalue="Application.HomeWork02" />
+        <item itemvalue="Application.HomeWork01" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +294,14 @@
       <workItem from="1664696526841" duration="9288000" />
       <workItem from="1664716067336" duration="56000" />
       <workItem from="1664716135878" duration="36000" />
-      <workItem from="1664716185117" duration="4892000" />
+      <workItem from="1664716185117" duration="5504000" />
+      <workItem from="1664778611328" duration="1636000" />
+      <workItem from="1664780311887" duration="336000" />
+      <workItem from="1664780695214" duration="95000" />
+      <workItem from="1664780970326" duration="157000" />
+      <workItem from="1664781455099" duration="132000" />
+      <workItem from="1664781730485" duration="251000" />
+      <workItem from="1664782014697" duration="14683000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -540,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664464695206</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="学习BufferedReader和BufferedWriter">
+      <created>1664724112802</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1664724112802</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成 代码块 static静态成员等" />
     <MESSAGE value="单例模式(饿汉式和懒汉式)" />
     <MESSAGE value="学习final" />
     <MESSAGE value="学习interface接口" />
@@ -583,7 +611,8 @@
     <MESSAGE value="开始学习线程知识" />
     <MESSAGE value="线程学习完毕" />
     <MESSAGE value="学习FileInputStream,FileOutputStream" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习FileInputStream,FileOutputStream" />
+    <MESSAGE value="学习BufferedReader和BufferedWriter" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习BufferedReader和BufferedWriter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -647,6 +676,11 @@
           <url>file://$PROJECT_DIR$/com/fanxing/customgeneric/GenericExtends.java</url>
           <line>26</line>
           <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/io/printstream/PrintWriter_.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com/innerclass/InnerTest.java</url>

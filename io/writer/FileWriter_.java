@@ -12,11 +12,6 @@ import java.util.ArrayList;
  */
 public class FileWriter_ {
     public static void main(String[] args) {
-
-
-
-
-
         String destPath = "e:\\writer.txt";
         String str = "风雨之后，定见彩虹";
         FileWriter fileWriter = null;
