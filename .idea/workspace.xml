@@ -7,14 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="结束io流">
-      <change afterPath="$PROJECT_DIR$/wangluo/api/API_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wangluo/socket/SocketTCP01Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wangluo/socket/SocketTCP01Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wangluo/socket/SocketTCP02Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wangluo/socket/SocketTCP02Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wangluo/socket/SocketTCP03Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wangluo/socket/SocketTCP03Server.java" afterDir="false" />
+    <list default="true" id="759844a6-d7d4-4181-b23d-85ab8c827e0b" name="Changes" comment="socket网络编程">
+      <change afterPath="$PROJECT_DIR$/wangluo/homework/Homework01Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wangluo/homework/Homework01Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wangluo/socket/StreamUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wangluo/socket/TCPFileUploadClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wangluo/socket/TCPFileUploadServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wangluo/udp/UDPReceiverA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wangluo/udp/UDPSenderB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/com/listandset/collections_/Collections_.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/com/oop/BankAccount/BankAccount.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/com/oop/BankAccount/CheckingAccount.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/wangluo/udp/UDPSenderB.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -92,7 +93,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.izhangzhihao.rainbow.fart.settings.RainbowFartConfigurable&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.3257329&quot;
   }
 }</component>
@@ -107,13 +108,13 @@
       <recent name="io.properties_" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SocketTCP03Client">
-    <configuration name="SocketTCP01Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wangluo.socket.SocketTCP01Client" />
+  <component name="RunManager" selected="Application.Homework01Client">
+    <configuration name="Homework01Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wangluo.homework.Homework01Client" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wangluo.socket.*" />
+          <option name="PATTERN" value="wangluo.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,25 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketTCP02Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wangluo.socket.SocketTCP02Client" />
+    <configuration name="Homework01Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wangluo.homework.Homework01Server" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wangluo.socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SocketTCP02Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wangluo.socket.SocketTCP02Server" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wangluo.socket.*" />
+          <option name="PATTERN" value="wangluo.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,13 +161,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UDPSenderB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wangluo.udp.UDPSenderB" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wangluo.udp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework01Client" />
+        <item itemvalue="Application.Homework01Server" />
         <item itemvalue="Application.SocketTCP03Client" />
         <item itemvalue="Application.SocketTCP03Server" />
-        <item itemvalue="Application.SocketTCP02Client" />
-        <item itemvalue="Application.SocketTCP02Server" />
-        <item itemvalue="Application.SocketTCP01Client" />
+        <item itemvalue="Application.UDPSenderB" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +292,22 @@
       <workItem from="1665023097022" duration="2874000" />
       <workItem from="1665026188100" duration="973000" />
       <workItem from="1665036381931" duration="4681000" />
-      <workItem from="1665064854002" duration="166000" />
+      <workItem from="1665064854002" duration="474000" />
+      <workItem from="1665065380584" duration="779000" />
+      <workItem from="1665122263519" duration="5918000" />
+      <workItem from="1665129793261" duration="3338000" />
+      <workItem from="1665133372088" duration="947000" />
+      <workItem from="1665148218460" duration="43000" />
+      <workItem from="1665148280264" duration="2006000" />
+      <workItem from="1665150320162" duration="177000" />
+      <workItem from="1665150512913" duration="715000" />
+      <workItem from="1665151265662" duration="118000" />
+      <workItem from="1665151424352" duration="64000" />
+      <workItem from="1665151521217" duration="137000" />
+      <workItem from="1665151674187" duration="498000" />
+      <workItem from="1665152190928" duration="169000" />
+      <workItem from="1665152376674" duration="193000" />
+      <workItem from="1665152588577" duration="2234000" />
     </task>
     <task id="LOCAL-00001" summary="for循环学习">
       <created>1658931179622</created>
@@ -566,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664806822632</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="socket网络编程">
+      <created>1665065161844</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1665065161844</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="学习final" />
     <MESSAGE value="学习interface接口" />
     <MESSAGE value="学习内部类和匿名内部类" />
     <MESSAGE value="完成学习内部类相关知识" />
@@ -609,7 +631,8 @@
     <MESSAGE value="学习FileInputStream,FileOutputStream" />
     <MESSAGE value="学习BufferedReader和BufferedWriter" />
     <MESSAGE value="结束io流" />
-    <option name="LAST_COMMIT_MESSAGE" value="结束io流" />
+    <MESSAGE value="socket网络编程" />
+    <option name="LAST_COMMIT_MESSAGE" value="socket网络编程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -678,6 +701,11 @@
           <url>file://$PROJECT_DIR$/io/printstream/PrintWriter_.java</url>
           <line>17</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/io/outputstream_/FileOutputStream01.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com/innerclass/InnerTest.java</url>
