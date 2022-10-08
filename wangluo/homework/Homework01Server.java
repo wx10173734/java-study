@@ -18,22 +18,20 @@ public class Homework01Server {
 
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         String s = bufferedReader.readLine();
-        System.out.println(s);
+        String answer = "";
+        if ("name".equals(s)) {
+            answer = "我是lzc";
+        } else if ("hobby".equals(s)) {
+            answer = "编写java程序";
+        } else {
+            answer = "你说啥";
+        }
+
 
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-        bufferedWriter.write("我是lzc");
+        bufferedWriter.write(answer);
         bufferedWriter.newLine();
         bufferedWriter.flush();
-
-        bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-        String s1 = bufferedReader.readLine();
-        System.out.println(s1);
-
-        bufferedWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-        bufferedWriter.write("编写java程序");
-        bufferedWriter.newLine();
-        bufferedWriter.flush();
-
 
 
         bufferedWriter.close();

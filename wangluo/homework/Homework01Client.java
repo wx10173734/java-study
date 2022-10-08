@@ -4,6 +4,7 @@ import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.Scanner;
 
 /**
  * @title: Homework01Client
@@ -17,7 +18,12 @@ public class Homework01Client {
         System.out.println("客户端socket" + socket.getClass());
 
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-        bufferedWriter.write("name");
+        //从键盘读取用户的问题
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("请输入你的问题");
+        String next = scanner.next();
+
+        bufferedWriter.write(next);
         bufferedWriter.newLine();
         bufferedWriter.flush();
 
@@ -26,18 +32,13 @@ public class Homework01Client {
         String s = bufferedReader.readLine();
         System.out.println(s);
 
-        bufferedWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-        bufferedWriter.write("hobby");
-        bufferedWriter.newLine();
-        bufferedWriter.flush();
 
-        bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-        String s1 = bufferedReader.readLine();
-        System.out.println(s1);
 
 
         bufferedReader.close();
         bufferedWriter.close();
         socket.close();
+
+
     }
 }
