@@ -27,5 +27,7 @@ public class BigInteger_ {
         System.out.println(multiply);//乘
         BigInteger divide = bigInteger.divide(bigInteger2);
         System.out.println(divide);//除
+
+
     }
 }

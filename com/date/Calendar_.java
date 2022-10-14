@@ -26,7 +26,7 @@ public class Calendar_ {
         System.out.println("分钟：" + c.get(Calendar.MINUTE));
         System.out.println("秒：" + c.get(Calendar.SECOND));
 //Calender   没有专门的格式化方法，所以需要程序员自己来组合显示
-        System.out.println(c.get(Calendar.YEAR)+"年"+(c.get(Calendar.MONTH)+1+"月")+c.get(Calendar.DAY_OF_MONTH)+"日"+(c.get(Calendar.HOUR_OF_DAY)));
+        System.out.println(c.get(Calendar.YEAR) + "年" + (c.get(Calendar.MONTH) + 1 + "月") + c.get(Calendar.DAY_OF_MONTH) + "日" + (c.get(Calendar.HOUR_OF_DAY)));
 
     }
 }
